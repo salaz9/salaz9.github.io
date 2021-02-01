@@ -192,3 +192,22 @@ a {
 .second-item-card + .second-item-card {
     margin-top: 30px;
 }
+.posts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    color: #356EAD;
+
+}
+.post-wrap {
+    display: flex;
+    align-items: center;
+}
+.post {
+    margin-left: 15px;
+}
+.old-wrap {
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+}
