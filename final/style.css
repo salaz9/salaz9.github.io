@@ -4,9 +4,10 @@
 body {
     margin: 0;
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: 'Gilroy', sans-serif;
 }
 img {
+    display: block;
     width: 100%;
 }
 a {
@@ -63,5 +64,131 @@ a {
     left: 20px;
 
 }
+.first {
+    padding: 60px 0 0 0;
+}
+.lable {
+    color: #356EAD;
+    font-weight: 600;
+}
+.popular-wrap {
+    margin-top: 30px;
+}
+.popular-cards {
+    display: flex;
+    justify-content: space-between;
+}
+.popular-card {
+    width: 380px;
+}
+.popular-card h3 {
+    color:  #1F3F68;
+    font-size: 46px;
+    margin: 0;
+
+}
+.popular-card-text {
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    opacity: 0.6;
+    margin-top: 30px;
+
+}
+.card-bottom {
+    display: flex;
+    margin-top: 70px;
+
+}
+.samatha {
+    color: #1F3F68;
+    font-size: 14px;
+
+}
+.may {
+    color: #1F3F68;
+    opacity: 0.4;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.icons {
+    display: flex;
+    margin-left: 100px;
+}
+
+.icons .icon-img-2 {
+    margin-left: 40px;
+}
+.cards-wrap {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.cards-wrap .popular-card{
+    width: 300px;
+}
+.cards-wrap .popular-card h3 {
+    font-size: 23px;
+    margin-top: 15px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
 
 
+}
+.sel {
+    text-align: right;
+    margin-top: 50px;
+    color: #356EAD;
+    text-transform: uppercase;
+
+}
+.line {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.second {
+    padding-top: 50px;
+}
+.second-wrap {
+    margin-top: 30px;
+}
+.second-item-card {
+    display: flex;
+}
+.second-item-card-text {
+    margin-left: 20px;
+}
+.second-item-card-text .second-title {
+    font-size: 26px;
+    color: #1F3F68;
+    margin: 0;
+
+}
+.second-item-card-text .second-subtitle {
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.04em;
+    width: 540px;
+    margin-top: 15px;
+}
+.second-item-card-text-bottom {
+    margin-top: 15px;
+    display: flex;
+}
+.second-item-card-text-bottom .smath {
+    color: #1F3F68;
+    font-size: 14px;
+}
+.second-item-card-text-bottom .may {
+    margin-top: 10px;
+}
+.icons-bottom {
+    display: flex;
+    margin-left: 100px;
+}
+.icons-bottom  .icon-img-2 {
+    margin-left: 40px;
+}
+.second-item-card + .second-item-card {
+    margin-top: 30px;
+}
