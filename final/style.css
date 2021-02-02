@@ -211,3 +211,111 @@ a {
     margin-right: 15px;
     align-items: center;
 }
+footer {
+    color: #fff;
+    padding-right: 90px;
+}
+
+.footer-center {
+    margin-top: 120px;
+    background: #316099;
+    border-radius: 0px 200px 0px 0px;
+    padding-top: 55px;
+}
+.footer-center-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 95px;
+}
+.footer-center-text {
+    width: 460PX;
+}
+.footer-center-text-title h3 {
+    font-size: 36px;
+    width: 320px;
+    font-weight: 500;
+}
+.footer-center-text-subtitle {
+    line-height: 26px;
+    letter-spacing: 0.05em;
+
+    opacity: 0.6;
+}
+.footer-btn {
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    background: #5A98D0;
+    border-radius: 10px;
+    text-align: center;
+}
+.line {
+    height: 1px;
+    width: 1373px;
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;;
+}
+.footer-bottom {
+    padding: 100px 0 65px 0;
+}
+.footer-bottm-block {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+.afrianska {
+    display: flex;
+}
+.afrianska img {
+    width: 40px;
+}
+.afrianska h3 {
+    font-size: 26px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+.lorem {
+    display: flex;
+    width: 300px;
+    line-height: 26px;
+}
+.lorem .lorem-text {
+    margin-left: 15px;
+}
+.number {
+    display: flex;
+    margin-top: 25px;
+    
+}
+.number .phone {
+    margin-left: 15px;
+}
+.email {
+    display: flex;
+    margin-top: 25px;
+}
+.email .mail {
+    margin-left: 15px;
+}
+.about h3 {
+    font-weight: 600;
+
+}
+.follow h3 {
+    font-weight: 600;
+}
+.footer-bottm-block nav {
+    margin-top: 30px;
+}
+.nav{
+    list-style-type: none;
+    padding: 0;
+}
+li + li {
+    margin-top: 15px;
+}
+.age {
+    opacity: 0.4;
+    margin-top: 60px;
+}
